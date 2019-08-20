@@ -1,0 +1,20 @@
+{
+  "name": "ts-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "broken-ts": "ts-node broken.ts",
+    "node": "node working.js",
+    "working-ts": "ts-node working.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/async": "^3.0.1",
+    "@types/node": "^12.7.2",
+    "async": "^3.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
